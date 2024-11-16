@@ -4,8 +4,8 @@ require('dotenv').config();
 
 // define the mongoDb url
 
-//const mongoURL = process.env.MONGODB_URL_LOCAL;
-const mongoURL = process.env.MONGODB_URL;
+const mongoURL = process.env.MONGODB_URL_LOCAL;
+//const mongoURL = process.env.MONGODB_URL;
 // hotels is databese name we also changed
 
 // setup mongodb connection
